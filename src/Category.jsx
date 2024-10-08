@@ -60,16 +60,7 @@ function SimpleDialogDemo() {
     getsearch()
   },[search])
   const Data = async () => {
-    // axios.get('https://interviewhub-3ro7.onrender.com/catagory/', {
-    //   headers:
-    //     { Authorization: dataToken }
-    // })
-    //   .then(response => {
-    //     setCatlist(response.data.data);
-    //   })
-    //   .catch(error => {
-    //     console.error(error);
-    //   });
+   
 
     try{
       const response = await axios.get('https://interviewhub-3ro7.onrender.com/catagory/', {

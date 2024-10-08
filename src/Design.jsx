@@ -26,7 +26,7 @@ const drawerWidth = 240;
 
 
 function Design({children}) {
-  // const { window } = props;
+
   const [mobileOpen, setMobileOpen] = React.useState(false);
   const [isClosing, setIsClosing] = React.useState(false);
   const location = useLocation();
@@ -96,7 +96,7 @@ function Design({children}) {
   );
 
 
-  // const container = window !== undefined ? () => window().document.body : undefined;
+ 
 
   return (
     <Box sx={{ display: 'flex' }}>
@@ -134,7 +134,7 @@ function Design({children}) {
       >
 
         <Drawer
-          // container={container}
+         
           variant="temporary"
           open={mobileOpen}
           onTransitionEnd={handleDrawerTransitionEnd}
